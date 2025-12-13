@@ -92,6 +92,14 @@
             border-bottom: 2px solid #e0e0d8;
         }
 
+        .section-hint {
+            font-size: 0.95rem;
+            color: #777;
+            margin-top: -18px;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
         .current-reads {
             margin-top: 10px;
             font-size: 0.95rem;
@@ -287,7 +295,6 @@
                 I like working on full-stack ML systems, including but not limited to 3D human pose or Scene data, 
                 with a strong focus on <strong>deployable, cost-aware, and reproducible pipelines</strong>.
             </p>
-
             <p class="current-reads">
                 <strong>Current reads:</strong>
                 Andrew Gordon Wilson's keynotes and lectures on Bayesian deep learning; 
@@ -295,19 +302,21 @@
                 Google's work on nested learning and self-modifying recurrent architectures; 
                 Efficient LLM training with memory and compute optimization.
             </p>
-
+                        
             <nav>
                 <a href="#research">Research</a>
+                <a href="#professional-experience">Experience</a>
                 <a href="#other-works">Other Works</a>
                 <a href="#contact">Contact</a>
                 <a href="https://github.com/mjsushanth" target="_blank">GitHub</a>
-                <a href="Resume_Joel_Markapudi.pdf" download style="background: #e8e8e3; font-weight: 500;">Resume ↓</a>
+                <a href="Joel Markapudi - Resume.pdf" download style="background: #e8e8e3; font-weight: 500;">Resume ↓</a>
             </nav>
+
         </header>
 
         <section id="research">
             <h2>Research & Academic Projects</h2>
-
+            <p class="section-hint">Click on each project card to explore more details!</p>
             <div class="projects-grid">
                 <div class="project-card" onclick="window.location.href='finsights.html'">
                     <div class="project-card-title">FinSights: Production-Grade Financial Intelligence System</div>
@@ -337,6 +346,19 @@
                     </div>
                     <div class="project-card-links">
                         <a href="https://github.com/mjsushanth/MultiView_Image_Analysis_CS5330/blob/main/IMPLEMENTATION_README.md" target="_blank" onclick="event.stopPropagation();">Implementation →</a>
+                    </div>
+                </div>
+                    <!-- Featured project card for Late-interaction -->
+                <div class="projects-grid">
+                    <div class="project-card" onclick="window.location.href='late-interaction.html'">
+                        <div class="project-card-title">Vision-Language Late-Interaction Retrieval</div>
+                        <div class="project-card-summary">
+                            ColBERT-style ViT+CLIP system with LoRA parameter-efficient fine-tuning. MaxSim token→patch alignment achieving 38% InfoNCE loss reduction and 100% retrieval accuracy on Flickr8k.
+                        </div>
+                        <div class="project-card-links">
+                            <a href="https://github.com/mjsushanth/mlops-labs-portfolio/tree/main/Late_Interaction_MVR_PEFT_LoRA" target="_blank" onclick="event.stopPropagation();">Repository →</a>
+                            <a href="https://github.com/mjsushanth/mlops-labs-portfolio/blob/main/Late_Interaction_MVR_PEFT_LoRA/notebooks/01_MaxSimMVR_ViT_LoRA_Lab.ipynb" target="_blank" onclick="event.stopPropagation();">Notebook →</a>
+                        </div>
                     </div>
                 </div>
 
@@ -369,36 +391,62 @@
             </div>
         </section>
 
-        <section id="other-works">
-            <h2>Other Works</h2>
-            
-            <div class="mini-projects">
-                <div class="mini-project">
-                    <div class="mini-project-title">Multi-vector ViT+CLIP with LoRA and ColBERT-style MaxSim retrieval</div>
-                    <div class="mini-project-desc">
-                        Parameter-efficient fine-tuning of vision-language models using LoRA with late interaction retrieval mechanisms.
-                        <a href="https://github.com/mjsushanth/mlops-labs-portfolio/tree/main/Late_Interaction_MVR_PEFT_LoRA" target="_blank" style="color: #4a90e2; text-decoration: none;"> → Demo Notebook</a>
+
+        <section id="professional-experience">
+            <h2>Professional Experience</h2>
+
+            <div class="projects-grid">
+                <div class="project-card" onclick="window.location.href='fpa-reporting.html'">
+                    <div class="project-card-title">FP&A and SG&A Reporting</div>
+                    <div class="project-card-summary">
+                        Led BI delivery for finance and operations stakeholders. Built scalable ETL pipelines and Power BI models supporting 11+ programs. Shipped 25+ dashboards covering 500+ metrics, automated workflows cutting 70+ hours/month, and implemented CI/CD reducing deployment time 50%.
+                    </div>
+                    <div class="project-card-links">
+                        <span style="color: #666; font-size: 0.9rem;">Innova Solutions • Mar 2020 – Nov 2023</span>
                     </div>
                 </div>
 
-                <div class="mini-project">
-                    <div class="mini-project-title">ML-Serving with GitHub CI/CD and AWS Lambda</div>
-                    <div class="mini-project-desc">
-                        End-to-end ML deployment workflow using GitHub Actions, AWS Lambda, and SAM Infrastructure for serverless model serving.
-                        <a href="https://github.com/mjsushanth/mlops-labs-portfolio/tree/main/CICD_ML_Infr_Lambda" target="_blank" style="color: #4a90e2; text-decoration: none;"> → Source Code</a> |
-                        <a href="https://github.com/mjsushanth/Study_Notes_Obsd/blob/main/ML%20Ops%20Notes/Study%20-%20AWS%2001%20CICD%2C%20Lambda%20etc..md" target="_blank" style="color: #4a90e2; text-decoration: none;"> Study Notes</a>
+                <div class="project-card" onclick="window.location.href='operational-reporting.html'">
+                    <div class="project-card-title">Operational Reporting & Data Warehouse</div>
+                    <div class="project-card-summary">
+                        Architected enterprise data warehouse integrating Bullhorn/HGC/JobDiva/Oracle EBS with 25+ PL/SQL procedures across 40+ star-schema tables. Engineered entity resolution achieving 88% accuracy. Delivered dashboards serving 300+ KPIs with forecasting and executive analytics.
                     </div>
-                </div>
-
-                <div class="mini-project">
-                    <div class="mini-project-title">Optuna and MLFlow with Synthetic Time-Series</div>
-                    <div class="mini-project-desc">
-                        Hyperparameter optimization and experiment tracking using Optuna and MLFlow on synthetic time-series data.
-                        <a href="https://github.com/mjsushanth/mlops-labs-portfolio/tree/main/MLFlow_Synth_TimeSeries_Lab" target="_blank" style="color: #4a90e2; text-decoration: none;"> → Source Code</a>
+                    <div class="project-card-links">
+                        <span style="color: #666; font-size: 0.9rem;">Innova Solutions • May 2022 – Nov 2023</span>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <section id="other-works">
+            <h2>Other Works</h2>
+            
+                <!-- Mini projects section -->
+                <div class="mini-projects">
+                    <h3>Additional Labs & Experiments</h3>
+                    
+                    <div class="mini-project">
+                        <div class="mini-project-title">ML-Serving with GitHub CI/CD and AWS Lambda</div>
+                        <div class="mini-project-desc">
+                            End-to-end ML deployment workflow using GitHub Actions, AWS Lambda, and SAM Infrastructure for serverless model serving.
+                            <a href="https://github.com/mjsushanth/mlops-labs-portfolio/tree/main/CICD_ML_Infr_Lambda" target="_blank" style="color: #4a90e2; text-decoration: none;"> → Source Code</a> |
+                            <a href="https://github.com/mjsushanth/Study_Notes_Obsd/blob/main/ML%20Ops%20Notes/Study%20-%20AWS%2001%20CICD%2C%20Lambda%20etc..md" target="_blank" style="color: #4a90e2; text-decoration: none;"> Study Notes</a>
+                        </div>
+                    </div>
+
+                    <div class="mini-project">
+                        <div class="mini-project-title">Optuna and MLFlow with Synthetic Time-Series</div>
+                        <div class="mini-project-desc">
+                            Hyperparameter optimization and experiment tracking using Optuna and MLFlow on synthetic time-series data.
+                            <a href="https://github.com/mjsushanth/mlops-labs-portfolio/tree/main/MLFlow_Synth_TimeSeries_Lab" target="_blank" style="color: #4a90e2; text-decoration: none;"> → Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
 
         <footer id="contact">
             <h2 style="border: none; text-align: center; font-size: 1.5rem; margin-bottom: 20px;">Connect with Me</h2>
